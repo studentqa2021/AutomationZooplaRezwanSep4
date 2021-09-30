@@ -1,0 +1,8 @@
+com\util\BaseConfig.class
+com\generic\MasterPageFactory.class
+com\util\ScreenShot.class
+com\generic\ZooplaLogin.class
+com\excel\manager\ReadExcel.class
+com\generic\Practice.class
+com\generic\DriverManager.class
+com\util\Highlighter.class

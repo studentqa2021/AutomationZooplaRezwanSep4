@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-30T14:20:31.109Z",
+        "line": 5,
+        "name": "As a Zoopla user, I can login using valid credentials",
+        "description": "",
+        "id": "login-function-testing;as-a-zoopla-user--i-can-login-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2967000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open browser and send URL",
+            "match": {
+              "location": "com.stepdefinition.StepDefLogin.setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3969000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login with valid credentials",
+            "match": {
+              "location": "com.stepdefinition.StepDefLogin.getLogin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1154000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Check login was succesful",
+            "match": {
+              "location": "com.stepdefinition.StepDefLogin.getValidation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login function testing",
+    "description": "Description: password must be 6 characters",
+    "id": "login-function-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  }
+]
