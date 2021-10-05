@@ -75,7 +75,16 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.8</version>
 		</dependency>
-
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.2.0</version>
+		</dependency>
+		<dependency>
+		<groupId>org.codehaus.groovy</groupId>
+		<artifactId>groovy</artifactId>
+		<version>3.0.0-alpha-4</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -94,7 +103,7 @@
 				<version>3.0.0-M4</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>LoginCucumberRunnertestng.xml</suiteXmlFile>
+						<suiteXmlFile>CucumberAPItestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

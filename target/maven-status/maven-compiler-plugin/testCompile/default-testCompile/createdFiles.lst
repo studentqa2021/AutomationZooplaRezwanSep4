@@ -1,3 +1,7 @@
+com\httpMethods\cucumber\StepDefGetMethod.class
+com\httpMethods\TestNG\TestingGetWithTestNG.class
 com\runner\RunnerFileLogin.class
 com\stepdefinition\StepDefLogin.class
 com\smokeTest\LoginTestExecution.class
+com\httpMethods\java\TestingGetMethodWithJava.class
+com\httpMethods\cucumber\RunnerGetMethod.class
